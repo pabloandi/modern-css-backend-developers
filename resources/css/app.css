@@ -1,0 +1,22 @@
+@tailwind base;
+
+@tailwind components;
+
+html, body {
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn {
+    @apply no-underline uppercase py-3 px-6 rounded-full text-xs;
+}
+
+.btn-blue {
+    @apply bg-blue-900 text-white;
+}
+
+.btn-green {
+    @apply bg-green-900 text-white;
+}
+
+@tailwind utilities;

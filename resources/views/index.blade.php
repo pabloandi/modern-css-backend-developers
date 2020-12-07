@@ -10,30 +10,25 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        {{-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> --}}
 
-        <link rel="stylesheet" href="css/card.css">
+        <link rel="stylesheet" href="css/app.css">
     </head>
 
-    <body class="flex items-center justify-center">
+    <body class="p-6">
 
-       <body>
-           <div>
-               <div>
-                    <h5>Monthly</h5>
-                    <span>$15</span>
-               </div>
+        <div class="container mx-auto">
+            <div class="flex" >
+                @include('plan')
+                @include('plan')
+                @include('plan')
+                @include('plan')
+            </div>
 
-               <img src="https://image.flaticon.com/icons/svg/864/864685.svg"  width="15" height="15" class="mr-2">
 
-               <p>
-                   Still undecided? Ease in with a monthly plan that can be canceled in ten seconds
-               </p>
-
-               <a href="#"> Start learning</a>
-           </div>
-       </body>
+        </div>
 
     </body>
+
 
 </html>
