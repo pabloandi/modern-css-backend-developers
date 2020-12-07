@@ -17,16 +17,16 @@
 
     <body class="p-6">
 
-        <div class="container mx-auto">
-            <div class="flex" >
-                @include('plan')
-                @include('plan')
-                @include('plan')
-                @include('plan')
-            </div>
+        <div class="flex flex-col">
+            <a href="#" class="btn bg-primary">
+                hola hola primario
+            </a>
 
-
+            <a href="#" class="btn bg-secondary">
+                hola hola secundario
+            </a>
         </div>
+
 
     </body>
 
