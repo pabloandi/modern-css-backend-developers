@@ -1,0 +1,54 @@
+body {
+    font-family: 'Nunito';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex,
+.row {
+    display: flex;
+}
+
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+}
+
+.box {
+    background: #e3e3e3;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex > div {
+    background: grey;
+    height: 100px;
+    padding: 10px;
+    flex: 1;
+}
+
+@import "header";
