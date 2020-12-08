@@ -16,45 +16,69 @@
 
     </head>
 
-    <body class="p-6">
+   <body class="container mx-auto">
 
-        <div class="md:flex md:flex-wrap">
+       <div class="md:min-h-screen bg-gray-700 md:flex md:flex-col">
+            <header class="bg-red-700 p-3">
+                <h1>My site</h1>
+            </header>
 
-            <div class="flex-1 p-4">
-                <div class="box bg-gray-300 p-4">1</div>
-            </div>
+            <div class="md:flex md:flex-1">
+                <aside class="bg-green-700 p-3">
+                    Sidebar.
+                </aside>
+                <main class="bg-blue-700 md:flex-1 p-3">
+                    <div class="flex flex-wrap">
+                        <div class="w-1/2 p-3 md:w-1/4">
+                            <div class="bg-gray-400 p-3 md:mb-2">
+                                <p>Product Feature.</p>
+                            </div>
+                        </div>
+                        <div class="w-1/2 p-3 md:w-1/4">
+                            <div class="bg-gray-400 p-3 md:mb-2">
+                                <p>Product Feature.</p>
+                            </div>
+                        </div>
+                        <div class="w-1/2 p-3 md:w-1/4">
+                            <div class="bg-gray-400 p-3 md:mb-2">
+                                <p>Product Feature.</p>
+                            </div>
+                        </div>
+                        <div class="w-1/2 p-3 md:w-1/4">
+                            <div class="bg-gray-400 p-3 md:mb-2">
+                                <p>Product Feature.</p>
+                            </div>
+                        </div>
+                        <div class="w-1/2 p-3 md:w-1/4">
+                            <div class="bg-gray-400 p-3 md:mb-2">
+                                <p>Product Feature.</p>
+                            </div>
+                        </div>
+                        <div class="w-1/2 p-3 md:w-1/4">
+                            <div class="bg-gray-400 p-3 md:mb-2">
+                                <p>Product Feature.</p>
+                            </div>
+                        </div>
+                        <div class="w-1/2 p-3 md:w-1/4">
+                            <div class="bg-gray-400 p-3 md:mb-2">
+                                <p>Product Feature.</p>
+                            </div>
+                        </div>
+                        <div class="w-1/2 p-3 md:w-1/4">
+                            <div class="bg-gray-400 p-3 md:mb-2">
+                                <p>Product Feature.</p>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div        <footer class="bg>
 
-            <div class="flex-2 p-4">
-                <div class="box bg-gray-300 p-4">2</div>
-            </div>
+     black text-white p-3">
+                Copyright 2018
+            </footer>
+       </div>
 
-            <div class="flex-1 p-4">
-                <div class="box bg-gray-300 p-4">3</div>
-            </div>
-
-            <div class="flex-1 p-4">
-                <div class="box bg-gray-300 p-4">4</div>
-            </div>
-
-            <div class="flex-1 p-4">
-                <div class="box bg-gray-300 p-4">5</div>
-            </div>
-
-            <div class="flex-1 p-4">
-                <div class="box bg-gray-300 p-4">6</div>
-            </div>
-
-            <div class="flex-1 p-4">
-                <div class="box bg-gray-300 p-4">7</div>
-            </div>
-
-            <div class="flex-1 p-4">
-                <div class="box bg-gray-300 p-4">8</div>
-            </div>
-
-        </div>
-
-    </body>
+   </body>
 
 
 </html>
