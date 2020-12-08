@@ -14,7 +14,8 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     // .sass('resources/css/app.scss', 'public/css')
     // .sass('resources/css/card.scss', 'public/css')
-    .postCss('resources/css/app.css', 'public/css', [
-        require('tailwindcss'),
-    ])
+    // .postCss('resources/css/app.css', 'public/css', [
+    //     require('tailwindcss'),
+    // ])
+    .sass('resources/css/signup-banner.scss', 'public/css/app.css')
     .browserSync('http://localhost:8000/');

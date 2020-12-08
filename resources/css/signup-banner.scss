@@ -1,0 +1,15 @@
+body {
+    background: url('/images/pattern.png') repeat;
+}
+
+.signup-banner {
+    background-image: radial-gradient(circle at 0 100%, #6586b0, #2e4469)
+}
+
+.container {
+    height: 600px;
+    background-image: url('/images/robot.png'), url('/images/thunder1.png'), url('/images/thunder2.png');
+    background-repeat: no-repeat;
+    background-size: auto 388px, auto auto, auto auto;
+    background-position: 0 100%, 0 0, 100% 100%;
+}
