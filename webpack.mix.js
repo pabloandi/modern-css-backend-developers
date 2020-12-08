@@ -17,5 +17,5 @@ mix.js('resources/js/app.js', 'public/js')
     // .postCss('resources/css/app.css', 'public/css', [
     //     require('tailwindcss'),
     // ])
-    .sass('resources/css/signup-banner.scss', 'public/css/app.css')
+    .sass('resources/css/app.scss', 'public/css/')
     .browserSync('http://localhost:8000/');
