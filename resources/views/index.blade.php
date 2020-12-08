@@ -16,69 +16,9 @@
 
     </head>
 
-   <body class="container mx-auto">
+    <body>
 
-       <div class="md:min-h-screen bg-gray-700 md:flex md:flex-col">
-            <header class="bg-red-700 p-3">
-                <h1>My site</h1>
-            </header>
-
-            <div class="md:flex md:flex-1">
-                <aside class="bg-green-700 p-3">
-                    Sidebar.
-                </aside>
-                <main class="bg-blue-700 md:flex-1 p-3">
-                    <div class="flex flex-wrap">
-                        <div class="w-1/2 p-3 md:w-1/4">
-                            <div class="bg-gray-400 p-3 md:mb-2">
-                                <p>Product Feature.</p>
-                            </div>
-                        </div>
-                        <div class="w-1/2 p-3 md:w-1/4">
-                            <div class="bg-gray-400 p-3 md:mb-2">
-                                <p>Product Feature.</p>
-                            </div>
-                        </div>
-                        <div class="w-1/2 p-3 md:w-1/4">
-                            <div class="bg-gray-400 p-3 md:mb-2">
-                                <p>Product Feature.</p>
-                            </div>
-                        </div>
-                        <div class="w-1/2 p-3 md:w-1/4">
-                            <div class="bg-gray-400 p-3 md:mb-2">
-                                <p>Product Feature.</p>
-                            </div>
-                        </div>
-                        <div class="w-1/2 p-3 md:w-1/4">
-                            <div class="bg-gray-400 p-3 md:mb-2">
-                                <p>Product Feature.</p>
-                            </div>
-                        </div>
-                        <div class="w-1/2 p-3 md:w-1/4">
-                            <div class="bg-gray-400 p-3 md:mb-2">
-                                <p>Product Feature.</p>
-                            </div>
-                        </div>
-                        <div class="w-1/2 p-3 md:w-1/4">
-                            <div class="bg-gray-400 p-3 md:mb-2">
-                                <p>Product Feature.</p>
-                            </div>
-                        </div>
-                        <div class="w-1/2 p-3 md:w-1/4">
-                            <div class="bg-gray-400 p-3 md:mb-2">
-                                <p>Product Feature.</p>
-                            </div>
-                        </div>
-                    </div>
-                </main>
-            </div        <footer class="bg>
-
-     black text-white p-3">
-                Copyright 2018
-            </footer>
-       </div>
-
-   </body>
+    </body>
 
 
 </html>
